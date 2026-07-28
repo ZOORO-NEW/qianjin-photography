@@ -63,6 +63,19 @@ Cyberpunk neon portrait of {subject}, rainy night street, colorful neon reflecti
 
 ---
 
+## 9. 法天象地·二重曝光 Fa Tian Xiang Di (Double Exposure)
+**说明**：用户上传任意人像，前台保留真实完整人物（正常比例、清晰不透明），身后浮现同一人的巨型半透明神明虚影，顶天立地。适用于「法相撑天」的玄幻/国风创意人像。通用版：不指定性别/外貌，靠 `{reference}` 套用户照片。
+**英文模板（图生图，上传人像后直接用）**：
+```
+Double exposure photography: in the lower center foreground, an EXACT photorealistic reproduction of the person from the reference photo, identical face and likeness preserved, same hairstyle, same clothing as in the source, natural skin texture with pores, candid unedited photograph look, full body reconstructed below the visible part with plausible natural clothing, feet visible, fully opaque, sharp focus, real ambient lighting matching the source photo; behind and towering above them, a colossal full-body translucent ethereal deity figure of the same person in a "Fa Tian Xiang Di" manifestation — complete head, torso, arms, and legs visible, semi-transparent, glowing golden celestial rim light, ornate divine robes, radiant halo, rising from earth to sky, merging with storm clouds and distant mountain silhouettes. The real person occupies the bottom 20% of the frame and must look like a real photograph, the giant phantom fills the upper 80% and may be idealized. 35mm lens, f/4, candid photo realism for foreground, cinematic xianxia fantasy for background, HDR, subtle film grain --ar 16:9
+```
+**追加负向词（接通用负向词）**：
+```
+porcelain skin, overly smooth skin, plastic skin, airbrushed, doll-like, beauty filter, smoothed face, changed hairstyle, different face
+```
+**画幅**：16:9（电影感）/ 2:3 或 9:16（竖屏冲击）
+**注意**：① 最佳用正面全身照；半身照时模型会自动补全下身。② 前台「身份漂移」时：降低重绘强度（Denoising 0.35–0.45），或用工具「人物一致性 / Face ID / 局部重绘只画背景」锁定。③ 要前台 100% 不跑脸，用分阶段合成：先生成「空前景+巨神背景」，再把原图人物抠出贴回前景并加金色 rim light。
+
 ## 通用负向词（Negative Prompt）
 ```
 cartoon, anime, illustration, painting, 3d render, deformed hands, extra fingers, blurred, low quality, watermark, text, logo
@@ -75,3 +88,4 @@ cartoon, anime, illustration, painting, 3d render, deformed hands, extra fingers
 | 时尚大片 / 赛博朋克 | 85mm | f/1.4–4 | 2:3 |
 | 复古胶片 / 黑白纪实 | 50mm | f/2.8 | 3:4 |
 | 街头抓拍 | 35mm | f/4 | 3:4 |
+| 法天象地·二重曝光 | 35mm | f/4 | 16:9 |
