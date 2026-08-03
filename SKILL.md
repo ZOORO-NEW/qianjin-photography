@@ -1,4 +1,8 @@
 ---
+slug: qianjin-photography
+displayName: 摄影创作引擎
+summary: "摄影综合创作引擎。功能1：人像/风景/人文/微距等风格摄影提示词，可调用图像生成逼真摄影图；功能2：根据照片生成情绪治愈/摄影教程/审美文案；功能3：根据照片+地点生成城市记忆与在地文化文案；功能4：根据照片给出专业摄影评价与调整建议。"
+license: MIT
 name: qianjin-photography
 version: 1.0.0
 category: 设计创作
