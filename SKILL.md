@@ -6,7 +6,7 @@ license: MIT
 name: qianjin-photography
 version: 2.2.0
 category: 设计创作
-platforms: [workbuddy, claude-code, cursor, windsurf, codex]
+platforms: [workbuddy, claude-code, cursor, windsurf, codex, linux, macos, windows]
 author: ZQJ (qianjin)
 description: AI 专业摄影师引擎。功能1：静物/人像/风光/微距/人文五类题材，用六维专业框架（构图/主体站位/四层打光/道具/色调/技术）+ 四层打光公式生成摄影级提示词并生图；功能2：照片→情绪治愈/教程/审美文案；功能3：照片+地点→城市记忆文案；功能4：照片→专业评价与调整建议。
 tags: [摄影, 提示词, 打光公式, 图像生成, 产品图, 自媒体, 城市记录, 审美]
